@@ -1,0 +1,342 @@
+/* Carousel */
+.video-content {
+  border: 2px solid #ecebf0;
+  border-radius: 14px;
+  height: 390px;
+  overflow: hidden;
+  margin: 27px 32px 54px 30px;
+}
+
+.carousel-control-prev {
+  top: 50% !important;
+  left: 8% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.carousel-control-next {
+  top: 50% !important;
+  right: -5% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.content {
+  border: 2px solid #e2ebf1;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 2px solid #e6e6e7;
+}
+.onboarding {
+  display: flex;
+  align-items: center;
+  margin: 27px 32px 0px 27px;
+}
+.onboarding h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 14px;
+  color: #0e0d13;
+}
+.Onboarding_Heading {
+  margin: 27px 32px 26px 32px;
+}
+
+.RiVideoLine {
+  width: 30px;
+  height: 30px;
+  color: #cc3e2f;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0%;
+  bottom: 9%;
+  left: 0%;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #808080;
+  position: relative;
+  top: 46px;
+}
+.carousel-indicators .active {
+  background-color: #cc3e2f;
+}
+.text_content .img-profile {
+  width: 44px;
+  height: 44px;
+  margin: 16px 20px 16px 24px;
+}
+.text_content h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.text_content p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+@media (max-width: 769px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+  .text_content p {
+    font-size: 10px;
+  }
+  .video-content {
+    height: auto;
+  }
+}
+@media (max-width: 994px) {
+  .video-content {
+    height: auto;
+  }
+}
+.content2 {
+  border: 2px solid #e2ebf1;
+  border-radius: 14px;
+  background: #ffffff;
+}
+.preference {
+  border: 2px solid #e2ebf1;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+}
+.preference1 {
+  border: 2px solid #e2ebf1;
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 24px 23px 26px 24px;
+}
+.Onboarding_Child {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.profile {
+  border: 2px solid #e2ebf1;
+  border-radius: 14px;
+  margin-bottom: 6px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+}
+.img-profile {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.highlighting_tab {
+  border-radius: 14px;
+  font-size: 1em;
+  margin: 10px 0;
+  border: 1.5px solid #e6e6e7;
+}
+
+.highlight {
+  width: 8px;
+  background: #cc3e2f;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+.tab_content {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  border-radius: 14px;
+  background-color: #f9fafb;
+  color: #0e0d13;
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.tab_content_txt {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0e0d13;
+}
+.tab_content1 {
+  background-color: #ffffff;
+  border-radius: 14px;
+  width: 100%;
+}
+.tab_content1_txt {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #868689;
+  background: #ffffff;
+}
+.backside {
+  border: 1.5px solid #cc3e2f;
+  border-radius: 14px;
+}
+.backside1 h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0e0d13;
+}
+
+.Save_source {
+  background: #cc3e2f;
+  border-radius: 14px;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.Connection_Body {
+  margin: 0px 0px 20px 0px;
+}
+
+.Connection_Body .Connection_Text {
+  margin: 0;
+  background: #cc3e2f;
+  border-radius: 10px;
+  padding: 12px;
+  color: #f0f0f0;
+}
+.Connection_Body .Connection_Text h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.Connection_Body .Connection_Text img {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  background: #fff;
+}
+
+/* ====================== Table Css ==========================*/
+.Table_Body .table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.Table_Body table tr th {
+  background: #eee;
+}
+.table-bordered td,
+.table-bordered th {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  vertical-align: middle;
+  color: #191919;
+}
+.Table_Body {
+  overflow-x: auto;
+}
+
+/* =============MySelf Button ========== */
+
+.Myself_body {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.Preference_Body {
+  border: 1.5px solid #e6e6e7;
+  border-right: 0;
+  margin: 0;
+  border-radius: 10px 0px 0px 10px;
+  background: #cc3e2f;
+  color: #fff;
+}
+.Competence_Body {
+  border: 1.5px solid #e6e6e7;
+  border-left: 0;
+  margin: 0;
+  border-radius: 0px 10px 10px 0px;
+}
+.Preference_Body1 {
+  border: 1.5px solid #e6e6e7;
+  border-right: 0;
+  margin: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+.Competence_Body1 {
+  border: 1.5px solid #e6e6e7;
+  border-left: 0;
+  margin: 0;
+  border-radius: 0 10px 10px 0px;
+  background: #cc3e2f;
+  color: #fff;
+}
+.Preference_Body h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 10px;
+}
+.Competence_Body h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #868689;
+  padding-right: 10px;
+}
+.Preference_Body1 h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #868689;
+  padding-right: 10px;
+}
+.Competence_Body1 h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 10px;
+}
+
+.Myself_body .Preference_Body1 .Preference_Icon {
+  margin: 10px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  background: #868689;
+}
+.Myself_body .Preference_Body .Preference_Icon {
+  margin: 10px;
+  color: #cc3e2f;
+  border-radius: 50%;
+  border: 1px solid;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  background: #fff;
+}
+.Myself_body .Competence_Body .Competence_Icon {
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 2px 6px;
+  color: #868689;
+}
+.Myself_body .Competence_Body1 .Competence_Icon {
+  margin: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 2px 6px;
+  color: #fff;
+}

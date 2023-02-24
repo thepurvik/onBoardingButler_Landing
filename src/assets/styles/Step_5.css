@@ -1,0 +1,155 @@
+.Step5_Box {
+  border: 2px solid #e2ebf1;
+  border-radius: 14px;
+  padding: 34px 32px 40px 32px;
+  background-color: #ffffff;
+}
+.Step5_Body {
+  margin: 0;
+  padding: 22px;
+  background-color: #f8f8f8;
+  border: 2px solid #e6e6e7;
+  border-radius: 14px;
+}
+
+/* Icon Collapse  */
+
+.Step5_Body .Step5_MainIcon {
+  color: #cc3e2f;
+  margin: 0 10px;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+.Step5_Body .Step5_Icon {
+  color: #cc3e2f;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.Step5_MainIcon.collapsed {
+  color: #cc3e2f;
+  display: block;
+  cursor: pointer;
+}
+.Step5_MainIcon1.collapsed {
+  color: #cc3e2f;
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.Step5_MainIcon1 {
+  color: #cc3e2f;
+  display: block;
+  cursor: pointer;
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.SimpleIcon1 {
+  display: block;
+  color: #868689;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 25px;
+}
+.SimpleIcon1.collapsed {
+  display: none;
+  color: #868689;
+  margin: 0 5px;
+  font-size: 25px;
+}
+.SimpleIcon {
+  display: none;
+  color: #868689;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.SimpleIcon3 {
+  color: #868689;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.Step5_Body .SimpleIcon.collapsed {
+  color: #868689;
+  margin: 0 5px;
+  font-size: 25px;
+  display: block;
+}
+.Step5_Body h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0e0d13;
+}
+.Step5_BodyTxt {
+  border: 2px solid #e2ebf1;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.Step5_BodyTxt h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+}
+.Step5_BodyTxt P {
+  color: #868689;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.Step5_BodyTxt:first-child {
+  color: #5f7d95;
+}
+.EditIcon {
+  color: #868689;
+}
+.conection_border {
+  border: 2px solid #cc3e2f;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+}
+@media (max-width: 756px) {
+  .SimpleIcon1 {
+    font-size: 60px !important;
+    margin: 0 !important;
+  }
+  .SimpleIcon {
+    font-size: 60px !important;
+    margin: 0 !important;
+  }
+  .SimpleIcon3 {
+    margin: 0 !important;
+    font-size: 84px;
+  }
+  .Step5_Body .SimpleIcon.collapsed {
+    margin: 0 !important;
+    font-size: 84px !important;
+  }
+  .Step5_BodyTxt h5 {
+    font-size: 12px;
+  }
+  .Step5_BodyTxt P {
+    font-size: 12px;
+  }
+}
+.font_color {
+  color: #00b649;
+}
+.toggle_btn {
+  border-radius: 10px;
+  border: 2px solid #cc3e2f;
+}
+.step5_Txt h5 {
+  color: #0e0d13;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}

@@ -1,0 +1,129 @@
+.Challanges_txt {
+  text-align: center;
+  background-color: #fff4ed;
+  padding: 70px;
+  position: relative;
+}
+.Challanges_txt h1 {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+.Challanges_txt p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+.Challanges_txt button {
+  background: #ff8b46;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.Challanges_txt .vector_icon {
+  padding-left: 7px;
+  font-weight: bold;
+}
+.Challanges_body .img_elments .element_img {
+  width: 100px;
+  position: absolute;
+  top: 3%;
+  left: 0%;
+  z-index: 999;
+}
+.Challanges_body .img_elments1 .element_img {
+  width: 100px;
+  position: absolute;
+  right: 0%;
+  z-index: 999;
+}
+img.element_img:nth-child(1) {
+  margin-top: 0px;
+}
+img.element_img:nth-child(2) {
+  margin-top: 25px;
+}
+img.element_img:nth-child(3) {
+  margin-top: 50px;
+}
+img.element_img:nth-child(4) {
+  margin-top: 75px;
+}
+.img_elments {
+  position: absolute;
+  left: 0;
+  top: 8%;
+}
+.img_elments1 {
+  position: absolute;
+  bottom: 30%;
+  right: 0%;
+}
+
+@media only screen and (max-width: 992px) {
+  .Challanges_body .img_elments .element_img {
+    width: 100px;
+  }
+  .Challanges_body .img_elments .element_img1 {
+    width: 100px;
+  }
+  .img_elments {
+    position: absolute;
+    left: -1%;
+    top: 12%;
+  }
+  .img_elments1 {
+    position: absolute;
+    bottom: 19%;
+    right: -2%;
+  }
+  .banner_image .Element_img {
+    position: absolute;
+    right: -3%;
+    bottom: 34%;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .Challanges_txt {
+    text-align: center;
+    background-color: #fff4ed;
+    padding: 10px;
+  }
+  .img_elments {
+    /* position: absolute;
+    left: -3%;
+    top: 1%; */
+    display: none;
+  }
+  .img_elments1 {
+    /* position: absolute;
+    bottom: 16%;
+    right: 1%; */
+    display: none;
+  }
+  .Challanges_body .img_elments .element_img {
+    width: 80px;
+  }
+  .Challanges_body .img_elments1 .element_img {
+    width: 85px;
+  }
+  .Challanges_txt h1 {
+    font-size: 35px;
+    line-height: 55px;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .img_elments {
+    position: absolute;
+    left: 3%;
+    top: 1%;
+  }
+  .img_elments1 {
+    position: absolute;
+    bottom: 12%;
+    right: 1%;
+  }
+}

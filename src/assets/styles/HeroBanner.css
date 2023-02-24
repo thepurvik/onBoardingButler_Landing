@@ -1,0 +1,165 @@
+.hometitleTxt .homeTxt {
+  font-size: 40px;
+  font-weight: bold;
+}
+.hometitleTxt .homebtn {
+  background-color: #ff8b46;
+}
+.homebody .homeImage .banner_image {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+.homebody .homeImage .banner_image .banner_img1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.banner_image {
+  position: relative;
+}
+.banner_image .Dot_img {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  bottom: 90%;
+  right: 85%;
+}
+.banner_image .dot_img {
+  width: 100%;
+  height: 100%;
+}
+.banner_image .Element_img {
+  position: absolute;
+  left: 65%;
+  bottom: 30%;
+}
+.banner_image .element_img {
+  width: 207.5px;
+  height: 10.3px;
+}
+.banner_box {
+  bottom: 88px;
+  left: 0;
+  box-shadow: 0px 48px 160px 0px rgb(51 51 51 / 25%);
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+}
+.banner_box h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+.banner_box p {
+  font-size: 15px;
+}
+.IconBorder {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #cc3e2f;
+  margin-left: 5px;
+
+  color: #cc3e2f;
+  border-radius: 50%;
+}
+.IconBorder:hover {
+  color: #fff;
+  background-color: #cc3e2f;
+}
+.IconBorder svg {
+  margin: 8px 8px;
+  width: 29px;
+  height: 29px;
+}
+.SocialIcon {
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .banner_box h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .banner_box p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .banner_box h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .banner_box p {
+    font-size: 10px;
+  }
+  img.element_img1 {
+    width: 100%;
+  }
+  .banner_image .Element_img {
+    position: absolute;
+    right: -5%;
+    bottom: 37%;
+  }
+  .homebody .homeImage .banner_image {
+    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .homebody .homeImage .banner_image {
+    margin-top: 50px;
+    width: 280px;
+    height: 280px;
+    display: block;
+    margin: auto;
+  }
+  .banner_image .Element_img {
+    position: absolute;
+    right: -5%;
+    bottom: 37%;
+  }
+  .banner_box {
+    position: unset;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .navbar-collapse {
+    text-align: center;
+    margin-top: 15px;
+  }
+  img.element_img1 {
+    width: 100%;
+  }
+  .hometitleTxt .homeTxt {
+    font-size: 35px;
+  }
+  /* .Home_btn {
+    text-align: center;
+  } */
+  /* .SocialIcon {
+    justify-content: center;
+  } */
+
+  .homeImage .video-content video {
+    height: 200px !important;
+  }
+  .homebody .homeImage {
+    margin-top: 1rem !important;
+  }
+  .About_Body .About_Banner,
+  .About_Body .About_Title {
+    margin: 1rem 0 !important;
+  }
+}
+
+.homeparagraph {
+  background-color: #deebf7;
+  padding: 8px;
+  color: black;
+  font-weight: 700;
+}

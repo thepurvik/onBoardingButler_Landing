@@ -1,0 +1,22 @@
+.profile_img {
+  border: 2px solid rgb(214, 214, 214);
+  padding: 8px;
+  box-shadow: 1px 1px 8px rgb(219, 217, 217);
+  width: 190px;
+  margin: auto;
+}
+.profile_pic {
+  margin: auto;
+  padding: 8px;
+  border-radius: 8px;
+}
+.profile_editdata {
+  border: none;
+  box-shadow: 1px 1px 8px rgb(219, 217, 217);
+  border-radius: 10px;
+  padding: 20px !important;
+  background-color: #fff;
+}
+.profiles_data {
+  margin: 0;
+}

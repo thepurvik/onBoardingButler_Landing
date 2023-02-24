@@ -1,0 +1,119 @@
+.volume-img {
+  background-color: #cc3e2f;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 21%;
+  left: 15%;
+  padding: 16px 15px 15px 16px;
+  color: #fff;
+  z-index: 9999;
+  border-radius: 14px;
+}
+.audio-img {
+  background-color: #cc3e2f;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 5%;
+  right: 15%;
+  padding: 15px 16px 16px 15px;
+  color: #fff;
+  border-radius: 14px;
+}
+.img {
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.btncolor {
+  padding: 10px 34px;
+  color: #fff;
+}
+/* .Boarding_btn {
+  margin-top: 10px;
+} */
+.Boarding_Img img {
+  border-radius: 6px;
+}
+
+/* Media css start */
+
+@media (max-width: 1200px) {
+  .volume-img {
+    position: absolute;
+    top: 21%;
+    left: 0%;
+  }
+  .audio-img {
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+  }
+  button.btn-onboarding-public {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 992px) {
+  .volume-img {
+    position: absolute;
+    top: 24%;
+    left: 17%;
+  }
+  .audio-img {
+    position: absolute;
+    bottom: 8%;
+    right: 17%;
+  }
+  img.rounded.img {
+    max-width: 100%;
+    background-size: cover;
+    object-fit: contain;
+  }
+  button.btn-onboarding-public {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 768px) {
+  .volume-img {
+    position: absolute;
+    top: 0;
+    left: 15%;
+  }
+  .audio-img {
+    position: absolute;
+    bottom: 0%;
+    right: 15%;
+  }
+  .btncolor {
+    margin-top: 10px;
+  }
+  .Boarding_Img img {
+    max-width: 100%;
+  }
+  .Boarding_btn {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .Boarding_Body H1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 490px) {
+  .Boarding_btn {
+    margin-top: 10px;
+  }
+  .volume-img {
+    position: absolute;
+    top: 0;
+    left: 7%;
+  }
+  .audio-img {
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+  }
+}
+
+/* Media css End */

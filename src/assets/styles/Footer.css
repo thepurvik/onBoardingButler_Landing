@@ -1,0 +1,51 @@
+.Footer_body {
+  background-color: #2e2e2e !important;
+  padding: 75px 0;
+}
+.Logo_Body svg {
+  color: #fff;
+  width: 369px;
+  margin-left: -46px;
+  overflow: hidden;
+}
+.Logo_Body img {
+  width: 200px;
+}
+.Footer_Media .Footer_Contact h3 {
+  color: #fff;
+  font-weight: bold;
+}
+.Footer_Media .Footer_Contact h6 {
+  color: #fff;
+  font-weight: bold;
+}
+.Footer_Media .Footer_links a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 15px;
+  display: grid;
+  text-decoration: none;
+}
+.Footer_Media .Footer_links h3 {
+  color: #fff;
+  font-weight: bold;
+}
+.Footer_Media .Social_Icon h3 {
+  color: #fff;
+  font-weight: bold;
+}
+.Footer_Media .Social_Icon a {
+  color: #fff;
+  /* padding: 5px; */
+}
+
+.text-light-grey {
+  color: #c3c4b4 !important;
+}
+
+@media only screen and (max-width: 756px) {
+  .Footer_body .Footer_Media {
+    flex-wrap: wrap;
+  }
+}

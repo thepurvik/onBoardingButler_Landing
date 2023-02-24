@@ -1,0 +1,225 @@
+.Step4_Main {
+  border: 2px solid #e2ebf1;
+  border-radius: 14px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  padding: 32px 30px 56px 32px;
+  background-color: #ffffff;
+}
+.Step4_Main h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 24px;
+}
+.Step4_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  border: 2px solid #e2ebf1;
+  padding: 30px 0px;
+  border-radius: 14px;
+}
+.Step4_card .card_profileTxt h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+.Step4_card .card_profileTxt p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+.card_emailTxt h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding-left: 5px;
+  margin: 0%;
+}
+.card_phoneTxt h6 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0%;
+  padding-left: 5px;
+}
+@media only screen and (max-width: 1200px) {
+  .card_emailTxt h6 {
+    font-size: 11px;
+  }
+  .card_phoneTxt h6 {
+    font-size: 11px;
+  }
+  .Step4_card .card_profileTxt h6 {
+    font-size: 14px;
+  }
+  .Step4_card .card_profileTxt p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .card_emailTxt h6 {
+    font-size: 8px;
+  }
+  .card_phoneTxt h6 {
+    font-size: 8px;
+  }
+  .Step4_card .card_profileTxt h6 {
+    font-size: 12px;
+  }
+  .Step4_card .card_profileTxt p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .card_emailTxt h6 {
+    font-size: 14px;
+  }
+  .card_phoneTxt h6 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 24%;
+    margin: 4px;
+  }
+}
+
+/* TableContainer */
+
+.Table_container {
+  padding: 32px 32px 40px 32px;
+  border: 2px solid #e6e6e7;
+  border-radius: 14px;
+  box-shadow: 1px 1px 8px #e2ebf1;
+  background-color: #ffffff;
+}
+.Table_container .table-title {
+  margin: 0px 0px 24px 0px;
+}
+.Table_container .table-title h5 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.Table_container .table-title span {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+  color: #cc3e2f;
+}
+.Table_container .table-title button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #cc3e2f;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 10px;
+}
+
+.Table_container .table-wrapper table {
+  width: 100%;
+  border: 1px solid #e6e6e7;
+  border-radius: 14px;
+}
+.Table_container .table-wrapper table thead th {
+  padding: 11px 0;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+  color: #868689;
+}
+.Table_container .table-wrapper table thead th .UpDownArrow {
+  color: #cc3e2f;
+  cursor: pointer;
+}
+.Table_container .table-wrapper table tbody td {
+  padding: 10px 0;
+  border-bottom: 2px solid #e6e6e7;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  line-height: 21px;
+}
+.Table_container .table-wrapper table tbody td input[type='checkbox'] {
+  margin: 0 10px;
+}
+.Table_container .table-wrapper table tbody td .profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Table_container .table-wrapper table tbody td .profile-container .image-container {
+  display: block;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.Table_container .table-wrapper table tbody td .profile-container .image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.Table_container .table-wrapper table tbody td .action {
+  color: #868689;
+}
+.Table_container .table-wrapper table tbody td .action:first-child {
+  font-size: large;
+  align-items: center;
+  justify-content: left;
+  cursor: pointer;
+}
+.Table_container .table-wrapper table tbody td .action .Action_Icon {
+  margin-right: 9px;
+}
+.Table_container .table-wrapper table tbody td .action .Action_Icon1 {
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Table_container .table-wrapper {
+    overflow-x: auto;
+  }
+}
+
+.Task_Main .carousel-indicators {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+}
+
+/* ====================== Table Css ==========================*/
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 14px;
+  overflow: hidden;
+}
+table tr th {
+  background: #fff;
+}
+.table-bordered td,
+.table-bordered th {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  vertical-align: middle;
+  color: #191919;
+}
+.Table_Body {
+  overflow-x: auto;
+}
